@@ -341,7 +341,7 @@ namespace StatefulUI.Runtime.Core
             {
                 if (InnerComponents[i].Role == role)
                 {
-                    return InnerComponents[i];
+                    return InnerComponents[i].InnerComponent;
                 }
             }
 
